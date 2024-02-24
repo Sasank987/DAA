@@ -35,8 +35,3 @@ end_time = time.time()
 
 print("\nBuilt-in sort Execution Time: %.8f seconds" % (end_time - start_time))
 
-# Additional insights:
-# - Execution time comparison: The built-in sort is likely more optimized for larger arrays.
-# - Selection sort complexity: O(n^2) in the worst case, potentially slower for large datasets.
-# - Consider more efficient algorithms: For large arrays, consider quicksort or merge sort for faster sorting.
-
